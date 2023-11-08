@@ -1,0 +1,4 @@
+charset,Shift_JIS
+name,ダブル男子高校生
+type,shell
+directory,double-danshi-KouKousei

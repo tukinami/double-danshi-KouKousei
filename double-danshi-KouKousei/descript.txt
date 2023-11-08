@@ -1,0 +1,71 @@
+charset,Shift_JIS
+name,ダブル男子高校生
+type,shell
+id,double-danshi-KouKousei
+craftman,tukinami seika
+craftmanw,月波 清火
+craftmanurl,https://github.com/tukinami/double-danshi-KouKousei
+
+seriko.use_self_alpha,1
+
+readme,readme.txt
+readme.charset,Shift_JIS
+
+// オーナードローメニュー
+menu.background.bitmap.filename,background.png
+menu.foreground.bitmap.filename,foreground.png
+menu.sidebar.bitmap.filename,sidebar.png
+
+menu.background.alignment,lefttop
+menu.foreground.alignment,lefttop
+menu.sidebar.alignment,top+repeat-y
+
+// 着せ替えをする場合はこちら
+sakura.menu,auto
+kero.menu,auto
+// 着せ替えをしない場合はこちら
+// sakura.menuitem0,-
+// kero.menuitem0,-
+
+// 必要なければ削って下さい
+// sakura
+sakura.bindgroup5300.name,靴下,白
+sakura.bindgroup5301.name,靴下,紺
+sakura.bindgroup5300.default,1
+sakura.bindoption0.group,靴下,mustselect
+
+sakura.bindgroup5430.name,シャツ,長袖
+sakura.bindgroup5431.name,シャツ,半袖
+sakura.bindgroup5430.default,1
+sakura.bindoption1.group,シャツ,mustselect
+
+sakura.bindgroup5340.name,ネクタイ,赤
+sakura.bindgroup5340.default,1
+
+sakura.bindgroup5350.name,セーター,ベスト
+sakura.bindgroup5441.name,セーター,長袖
+sakura.bindgroup5441.default,1
+
+sakura.bindgroup5410.name,ジャケット,通常
+sakura.bindgroup5410.default,1
+
+// kero
+kero.bindgroup5300.name,靴下,白
+kero.bindgroup5301.name,靴下,紺
+kero.bindgroup5300.default,1
+kero.bindoption0.group,靴下,mustselect
+
+kero.bindgroup5430.name,シャツ,長袖
+kero.bindgroup5431.name,シャツ,半袖
+kero.bindgroup5430.default,1
+kero.bindoption1.group,シャツ,mustselect
+
+kero.bindgroup5340.name,ネクタイ,赤
+kero.bindgroup5340.default,1
+
+kero.bindgroup5350.name,セーター,ベスト
+kero.bindgroup5441.name,セーター,長袖
+kero.bindgroup5350.default,1
+
+kero.bindgroup5410.name,ジャケット,通常
+kero.bindgroup5410.default,1

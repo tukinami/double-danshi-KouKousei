@@ -1,0 +1,391 @@
+// ==================================================================
+// 基礎設定
+// ==================================================================
+charset,Shift_JIS
+
+descript
+{
+version,1
+}
+
+// ==================================================================
+// マウスカーソル
+// ==================================================================
+sakura.cursor
+{
+mouseup0,Head,system:hand
+mouseup1,Shoulder,system:hand
+mouseup2,Hand,system:hand
+}
+
+kero.cursor
+{
+mouseup0,Head,system:hand
+mouseup1,Shoulder,system:hand
+mouseup2,Hand,system:hand
+}
+
+// ==================================================================
+// ベース
+// ==================================================================
+surface0-9,100-115
+{
+//satolist.palette.offset,125,30
+//satolist.palette.expand,0.6
+
+element0,base,surface0000.png,0,0
+
+collisionex0,Head,region,collision001.png,255,0,0
+collisionex1,Shoulder,region,collision001.png,255,0,255
+collisionex2,Hand,region,collision001.png,0,0,255
+}
+
+surface10-19,200-215
+{
+//satolist.palette.offset,90,60
+//satolist.palette.expand,0.6
+
+element0,base,surface0010.png,0,0
+
+collisionex0,Head,region,collision002.png,255,0,0
+collisionex1,Shoulder,region,collision002.png,255,0,255
+collisionex2,Hand,region,collision002.png,0,0,255
+}
+
+// ==================================================================
+// 表情
+// ==================================================================
+// 口
+// ------------------------------------------------------------------
+// 素
+surface0,6,100
+{
+element2,overlay,surface5100.png,0,0
+}
+
+surface10,11,16,208
+{
+element2,overlay,surface6100.png,0,0
+}
+
+// 微笑み
+surface1,5,8,106,115
+{
+element2,overlay,surface5101.png,0,0
+}
+
+surface15,18,200,206,215
+{
+element2,overlay,surface6101.png,0,0
+}
+
+// 笑い
+surface101,107
+{
+element2,overlay,surface5102.png,0,0
+}
+
+surface201,207
+{
+element2,overlay,surface6102.png,0,0
+}
+
+// 不満
+surface3,102,105,112
+{
+element2,overlay,surface5103.png,0,0
+}
+
+surface13,14,17,204,212
+{
+element2,overlay,surface6103.png,0,0
+}
+
+// 半開き
+surface4,104,108,110,113,114
+{
+element2,overlay,surface5104.png,0,0
+}
+
+surface202,205,210,213,214
+{
+element2,overlay,surface6104.png,0,0
+}
+
+// 大口
+surface2,7,9,103,109,111
+{
+element2,overlay,surface5105.png,0,0
+}
+
+surface12,19,203,209,211
+{
+element2,overlay,surface6105.png,0,0
+}
+
+// 目
+// ------------------------------------------------------------------
+// 通常
+surface0,7,9,100,102,106,112,113
+{
+element3,overlay,surface5120.png,0,0
+
+animation3.interval,rarely
+animation3.pattern0,overlay,-1,80,0,0
+animation3.pattern1,overlayfast,5121,80,0,0
+animation3.pattern2,overlayfast,5126,80,0,0
+animation3.pattern3,overlayfast,5121,80,0,0
+animation3.pattern4,overlay,-1,80,0,0
+}
+
+surface10,15,17,200,202,204,207,212
+{
+element3,overlay,surface6120.png,0,0
+
+animation3.interval,rarely
+animation3.pattern0,overlay,-1,80,0,0
+animation3.pattern1,overlay,6121,80,0,0
+animation3.pattern2,overlay,6126,80,0,0
+animation3.pattern3,overlay,6121,80,0,0
+animation3.pattern4,overlay,-1,80,0,0
+}
+
+// 余所見
+surface3,8,104
+{
+element3,overlay,surface5122.png,0,0
+
+animation3.interval,rarely
+animation3.pattern0,overlay,-1,80,0,0
+animation3.pattern1,overlay,5123,80,0,0
+animation3.pattern2,overlay,5126,80,0,0
+animation3.pattern3,overlay,5123,80,0,0
+animation3.pattern4,overlay,-1,80,0,0
+}
+
+surface11,13,18,213
+{
+element3,overlay,surface6122.png,0,0
+
+animation3.interval,rarely
+animation3.pattern0,overlay,-1,80,0,0
+animation3.pattern1,overlay,6123,80,0,0
+animation3.pattern2,overlay,6126,80,0,0
+animation3.pattern3,overlay,6123,80,0,0
+animation3.pattern4,overlay,-1,80,0,0
+}
+
+// 驚き
+surface2,103,108,109
+{
+element3,overlay,surface5124.png,0,0
+
+animation3.interval,rarely
+animation3.pattern0,overlay,-1,80,0,0
+animation3.pattern1,overlay,5125,80,0,0
+animation3.pattern2,overlay,5126,80,0,0
+animation3.pattern3,overlay,5125,80,0,0
+animation3.pattern4,overlay,-1,80,0,0
+}
+
+surface12,208,209
+{
+element3,overlay,surface6124.png,0,0
+
+animation3.interval,rarely
+animation3.pattern0,overlay,-1,80,0,0
+animation3.pattern1,overlay,6125,80,0,0
+animation3.pattern2,overlay,6126,80,0,0
+animation3.pattern3,overlay,6125,80,0,0
+animation3.pattern4,overlay,-1,80,0,0
+}
+
+// 閉じ(通常)
+surface4,6,105,114
+{
+element3,overlay,surface5126.png,0,0
+}
+
+surface14,16,203,205,214
+{
+element3,overlay,surface6126.png,0,0
+}
+
+// 閉じ(微笑)
+surface1,5,101,107,115
+{
+element3,overlay,surface5127.png,0,0
+}
+
+surface19,201,206,215
+{
+element3,overlay,surface6127.png,0,0
+}
+
+// ギャグ驚き
+surface110,111
+{
+element3,overlay,surface5128.png,0,0
+}
+
+surface210,211
+{
+element3,overlay,surface6128.png,0,0
+}
+
+// 眉
+// ------------------------------------------------------------------
+// 通常
+surface0,2,6,106,107,111,114
+{
+element4,overlay,surface5140.png,0,0
+}
+
+surface10,12,16,208,210,214
+{
+element4,overlay,surface6140.png,0,0
+}
+
+// 笑顔
+surface5,100,101,109,110,115
+{
+element4,overlay,surface5141.png,0,0
+}
+
+surface15,200,201,206,207,211
+{
+element4,overlay,surface6141.png,0,0
+}
+
+// 怒り
+surface7,9,102,103
+{
+element4,overlay,surface5142.png,0,0
+}
+
+surface17,202,203
+{
+element4,overlay,surface6142.png,0,0
+}
+
+// 悲しみ
+surface1,3,4,8,104,105,108,112,113
+{
+element4,overlay,surface5143.png,0,0
+}
+
+surface11,13,14,18,19,204,205,209,212,213,215
+{
+element4,overlay,surface6143.png,0,0
+}
+
+// 表情効果
+// ------------------------------------------------------------------
+// 赤面
+surface1,9,115
+{
+element5,overlayfast,surface5000.png,0,0
+}
+
+surface11,19,215
+{
+element5,overlayfast,surface6000.png,0,0
+}
+
+// ==================================================================
+// 着せ替え・服
+// ==================================================================
+surface.append0-9,100-199
+{
+// ズボン
+animation5320.interval,runonce
+animation5320.pattern0,overlay,5320,0,0,0
+
+// シャツ(ベース)
+animation5330.interval,runonce
+animation5330.pattern0,overlay,5330,0,0,0
+
+// ネクタイ
+animation5340.interval,bind
+animation5340.pattern0,overlay,5340,0,0,0
+
+// ジャケット
+animation5410.interval,bind
+animation5410.pattern0,overlay,5410,0,0,0
+animation5410.pattern1,insert,5430
+animation5410.pattern2,insert,5431
+animation5410.pattern3,insert,5350
+animation5410.pattern4,insert,5441
+animation5410.pattern5,overlay,5450,0,0,0
+
+// シャツの袖
+animation5430.interval,bind
+animation5430.pattern0,overlay,5430,0,0,0
+animation5431.interval,bind
+animation5431.pattern0,overlay,5431,0,0,0
+
+// セーター
+animation5350.interval,bind
+animation5350.pattern0,overlay,5350,0,0,0
+animation5350.pattern1,insert,5430
+animation5350.pattern2,insert,5431
+animation5350.pattern3,overlay,5440,0,0,0
+animation5441.interval,bind
+animation5441.pattern0,overlay,5350,0,0,0
+animation5441.pattern1,overlay,5441,0,0,0
+}
+
+surface.append10-19,200-299
+{
+// ズボン
+animation5320.interval,runonce
+animation5320.pattern0,overlay,6320,0,0,0
+
+// シャツ(ベース)
+animation5330.interval,runonce
+animation5330.pattern0,overlay,6330,0,0,0
+
+// ネクタイ
+animation5340.interval,bind
+animation5340.pattern0,overlay,6340,0,0,0
+
+// ジャケット
+animation5410.interval,bind
+animation5410.pattern0,overlay,6410,0,0,0
+animation5410.pattern1,insert,5430
+animation5410.pattern2,insert,5431
+animation5410.pattern3,insert,5350
+animation5410.pattern4,insert,5441
+animation5410.pattern5,overlay,6450,0,0,0
+
+// シャツの袖
+animation5430.interval,bind
+animation5430.pattern0,overlay,6430,0,0,0
+animation5431.interval,bind
+animation5431.pattern0,overlay,6431,0,0,0
+
+// セーター
+animation5350.interval,bind
+animation5350.pattern0,overlay,6350,0,0,0
+animation5350.pattern1,insert,5430
+animation5350.pattern2,insert,5431
+animation5350.pattern3,overlay,6440,0,0,0
+animation5441.interval,bind
+animation5441.pattern0,overlay,6350,0,0,0
+animation5441.pattern1,overlay,6441,0,0,0
+}
+
+// ==================================================================
+// 髪
+// ==================================================================
+surface.append0-9,100-199
+{
+animation5600.interval,runonce
+animation5600.pattern0,overlay,5600,0,0,0
+}
+
+surface.append10-19,200-299
+{
+animation5600.interval,runonce
+animation5600.pattern0,overlay,6600,0,0,0
+}
