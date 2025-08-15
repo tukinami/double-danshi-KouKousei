@@ -83,7 +83,7 @@ sakura側、kero側それぞれに当たり判定があります。
 
 ## 連絡先
 
-- [Peing質問箱](https://peing.net/ja/tukinami_seika)
+- [Wavebox](https://wavebox.me/wave/ersk1ec23kr3hrqr/)
 - [Mastodon(fedibird)](https://fedibird.com/@tukinami_seika)
 - [Mastodon(うかどん)](https://ukadon.shillest.net/@tukinami_seika)
 - [公開URL](https://github.com/tukinami/double-danshi-KouKousei)

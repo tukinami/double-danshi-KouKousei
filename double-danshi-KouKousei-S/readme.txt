@@ -51,7 +51,7 @@ CC BY 4.0 にて配布いたします。
 --------------------------------------------------------------
 連絡先
 --------------------------------------------------------------
-- Peing質問箱: https://peing.net/ja/tukinami_seika
+- Wavebox: https://wavebox.me/wave/ersk1ec23kr3hrqr/
 - Mastodon(fedibird): https://fedibird.com/@tukinami_seika
 - Mastodon(うかどん): https://ukadon.shillest.net/@tukinami_seika
 - 公開URL: https://github.com/tukinami/double-danshi-KouKousei
@@ -59,5 +59,6 @@ CC BY 4.0 にて配布いたします。
 --------------------------------------------------------------
 更新履歴
 --------------------------------------------------------------
+- 2025-08-15: readme.txt更新。連絡先を変更。
 - 2023-11-09: さとりすとのサーフェスプレビュー対応の修正。
 - 2023-11-08: 公開。
